@@ -7,6 +7,6 @@ def sum_dig_pow(a, b):
 		for i in str(x):
 			char.append(int(i) ** (n+1))
 			n += 1
-		if x == sum(char)
+		if x == sum(char):
 			arr.append(x)
 	return arr
